@@ -1,1 +1,1 @@
-[pagina principal](./html/principal.html)
+https://osmarant.github.io/ordinario-ftw/html/principal.html
