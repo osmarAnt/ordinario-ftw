@@ -4,84 +4,84 @@
     <arma>
         <nombre>Gran Espada</nombre>
         <descripcion>Arma pesada y poderosa, ideal para ataques cargados que causan mucho daño.</descripcion>
-        <imagen>../imagenes/GS.png</imagen>
+        <imagen>../imagenes/armas/GS.png</imagen>
     </arma>
 
     <arma>
         <nombre>Espada Larga</nombre>
         <descripcion>Arma ágil con buen alcance que permite realizar combos fluidos y ataques espirituales.</descripcion>
-        <imagen>../imagenes/espada_larga.png</imagen>
+        <imagen>../imagenes/armas/espada_larga.png</imagen>
     </arma>
 
     <arma>
         <nombre>Espada y Escudo</nombre>
         <descripcion>Arma equilibrada que permite atacar rápido, bloquear y usar objetos con facilidad.</descripcion>
-        <imagen>../imagenes/sns.png</imagen>
+        <imagen>../imagenes/armas/sns.png</imagen>
     </arma>
 
     <arma>
         <nombre>Espadas Dobles</nombre>
         <descripcion>Armas rápidas enfocadas en ataques continuos, movilidad y daño constante.</descripcion>
-        <imagen>../imagenes/duales.png</imagen>
+        <imagen>../imagenes/armas/duales.png</imagen>
     </arma>
 
     <arma>
         <nombre>Martillo</nombre>
         <descripcion>Arma contundente que causa gran daño y puede aturdir monstruos golpeando la cabeza.</descripcion>
-        <imagen>../imagenes/hammer.png</imagen>
+        <imagen>../imagenes/armas/hammer.png</imagen>
     </arma>
 
     <arma>
         <nombre>Cornamusa</nombre>
         <descripcion>Arma musical de impacto que permite atacar mientras otorga mejoras al cazador y aliados.</descripcion>
-        <imagen>../imagenes/cornamus.png</imagen>
+        <imagen>../imagenes/armas/cornamus.png</imagen>
     </arma>
 
     <arma>
         <nombre>Lanza</nombre>
         <descripcion>Arma defensiva con gran escudo, ataques precisos y excelente capacidad para bloquear.</descripcion>
-        <imagen>../imagenes/lance.png</imagen>
+        <imagen>../imagenes/armas/lance.png</imagen>
     </arma>
 
     <arma>
         <nombre>Lanza Pistola</nombre>
         <descripcion>Combina una lanza con disparos explosivos, permitiendo bloquear y causar daño fijo.</descripcion>
-        <imagen>../imagenes/gunlance.png</imagen>
+        <imagen>../imagenes/armas/gunlance.png</imagen>
     </arma>
 
     <arma>
         <nombre>Hacha Espada</nombre>
         <descripcion>Arma transformable que alterna entre modo hacha y modo espada para adaptarse al combate.</descripcion>
-        <imagen>../imagenes/SA.png</imagen>
+        <imagen>../imagenes/armas/SA.png</imagen>
     </arma>
 
     <arma>
         <nombre>Hacha Cargada</nombre>
         <descripcion>Arma técnica que cambia entre espada y escudo, y un poderoso modo hacha cargada.</descripcion>
-        <imagen>../imagenes/hacha_cargada.webp</imagen>
+        <imagen>../imagenes/armas/hacha_cargada.webp</imagen>
     </arma>
 
     <arma>
         <nombre>Glaive Insecto</nombre>
         <descripcion>Arma móvil que permite saltos, ataques aéreos y el uso de un kinsecto para obtener mejoras.</descripcion>
-        <imagen>../imagenes/gleive_incecto.png</imagen>
+        <imagen>../imagenes/armas/gleive_incecto.png</imagen>
     </arma>
 
     <arma>
         <nombre>Ballesta Ligera</nombre>
         <descripcion>Arma a distancia con buena movilidad que usa distintos tipos de munición.</descripcion>
-        <imagen>../imagenes/LBG.png</imagen>
+        <imagen>../imagenes/armas/LBG.png</imagen>
     </arma>
 
     <arma>
         <nombre>Ballesta Pesada</nombre>
         <descripcion>Arma a distancia más lenta pero potente, capaz de causar gran daño con municiones pesadas.</descripcion>
-        <imagen>../imagenes/HBG.png</imagen>
+        <imagen>../imagenes/armas/HBG.png</imagen>
     </arma>
 
     <arma>
         <nombre>Arco</nombre>
         <descripcion>Arma a distancia versátil que permite cargar disparos y usar revestimientos especiales.</descripcion>
-        <imagen>../imagenes/bow.png</imagen>
+        <imagen>../imagenes/armas/bow.png</imagen>
     </arma>
 </armas>

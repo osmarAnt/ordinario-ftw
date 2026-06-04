@@ -29,51 +29,6 @@ h1 {
     margin-bottom: 25px;
 }
 
-.tabla-armas {
-    width: 100%;
-    border-collapse: separate;
-    border-spacing: 0 8px;
-}
-
-.tabla-armas th {
-    background: linear-gradient(#7a4b1f, #3c1f0e);
-    color: #ffe9a6;
-    padding: 12px;
-    border: 2px solid #c29b52;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
-
-.tabla-armas td {
-    background: linear-gradient(#5a3820, #2c180d);
-    border-top: 2px solid #9d7335;
-    border-bottom: 2px solid #1a0e07;
-    padding: 12px;
-    vertical-align: middle;
-}
-
-.tabla-armas tr:hover td {
-    background: linear-gradient(#8a5a25, #4a260e);
-    color: #ffffff;
-    cursor: pointer;
-}
-
-.tabla-armas img {
-    width: 90px;
-    height: 90px;
-    object-fit: contain;
-    background: rgba(15, 10, 5, 0.6);
-    border: 3px solid #b88a3b;
-    border-radius: 6px;
-    padding: 5px;
-}
-
-.tabla-armas td:nth-child(2) {
-    color: #ffd46b;
-    font-weight: bold;
-    font-size: 18px;
-}
-
 .boton-volver {
     display: inline-block;
     margin-top: 25px;
