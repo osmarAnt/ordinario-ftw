@@ -1,0 +1,19 @@
+.palico{
+    font-size: 18px;
+    color: #eec45a;
+}
+.contenedor {
+    width: 100%;
+    height: 600px;
+
+    border: 4px double #b8860b;
+    background-color: #2b1608;
+
+    display: flex;
+
+
+    gap: 60px;                /* espacio entre imagen y texto */
+    padding: 40px;
+
+    box-sizing: border-box;
+}
