@@ -1,6 +1,7 @@
 .palico{
-    font-size: 18px;
+    font-size: auto;
     color: #eec45a;
+    
 }
 .contenedor {
     width: 100%;
@@ -12,8 +13,19 @@
     display: flex;
 
 
-    gap: 60px;                /* espacio entre imagen y texto */
+    gap: 30px;
     padding: 40px;
 
     box-sizing: border-box;
+}
+.imagen-principal{
+    width: 400px;
+    height: 400px;
+
+    border: 4px double #b8860b;
+    background-color: #2b1608;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

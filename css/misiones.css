@@ -1,0 +1,50 @@
+.contenedor-misiones{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 500px;
+    gap: 20px;
+    padding: 20px;
+}
+.contenedor-categoria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 20px 20px;
+}
+.categorias {
+    background-color: #b46e049f;
+    background:
+        url("../imagenes/misiones/tablon2.png") no-repeat center center;
+    width: 325px;
+    background-size: 100%;
+}
+.mision{
+    width: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+h2{
+    text-align: center;
+    color: #f8d878;
+    background-color: #471e025d;
+    text-shadow: 2px 2px 0 #2b1608;
+    letter-spacing: 1px;
+    padding-bottom: 10px;
+    margin-bottom: 15xp;
+}
+.tablon{
+    background-color: #b46e049f;
+    border: 5px solid #471e02;
+    border-radius: 8px;
+    padding: 20px;
+    width: 85%;
+    height: 700px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background:
+        url("../imagenes/misiones/tablon.jpg.opdownload" ) no-repeat center center;
+    background-size: cover;
+    }
