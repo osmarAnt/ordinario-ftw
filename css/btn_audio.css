@@ -1,0 +1,24 @@
+.btn-audio {
+    position: fixed;
+    top: 15px;
+    right: 15px;
+
+    width: 45px;
+    height: 45px;
+
+    border: none;
+    border-radius: 50%;
+
+    background-color: #471e02;
+    color: #f8d878;
+
+    font-size: 20px;
+    cursor: pointer;
+
+    z-index: 9999;
+}
+
+.btn-audio:hover {
+    transform: scale(1.1);
+    filter: brightness(1.2);
+}

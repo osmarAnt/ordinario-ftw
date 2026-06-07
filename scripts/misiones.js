@@ -44,7 +44,7 @@ function crearMision(titulo, descripcion, dificultad, recompensa) {
             <p>Recompensa: ${recompensa}</p>
         </div>
 
-        <img src="../imagenes/misiones/sello.png" class="sello" alt="Sello de misión">
+        <img src="../imagenes/misiones/sello.svg" class="sello" alt="Sello de misión">
     `;
 
     mision.addEventListener("click", () => {
