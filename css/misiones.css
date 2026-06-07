@@ -2,7 +2,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    height: 500px;
+    height: 300px;
     gap: 20px;
     padding: 20px;
 }
@@ -21,10 +21,68 @@
     background-size: 100%;
 }
 .mision{
+    position: relative;
+
     width: 300px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
+
+    transition: transform 0.3s ease, filter 0.3s ease;
+    cursor: pointer;
+
+    overflow: visible;
+}
+.mision:hover {
+    transform: scale(1.1) rotate(2deg);
+    z-index: 10;
+    filter: brightness(1.15);
+}
+.info-extra {
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.mision:hover .info-extra {
+    opacity: 1;
+    transform: translateY(0);
+    
+}
+.sello {
+    position: absolute;
+    width: 100px;
+
+    right: 25px;
+    bottom: 20px;
+
+    opacity: 0;
+    transform: scale(3) rotate(-15deg);
+    transform-origin: center;
+
+    pointer-events: none;
+    z-index: 20;
+}
+
+.mision.sellada .sello {
+    animation: ponerSello 0.35s ease-out forwards;
+}
+
+@keyframes ponerSello {
+    0% {
+        opacity: 0;
+        transform: scale(3) rotate(-15deg);
+    }
+
+    70% {
+        opacity: 1;
+        transform: scale(0.85) rotate(-15deg);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1) rotate(-15deg);
+    }
 }
 h2{
     text-align: center;
@@ -47,4 +105,9 @@ h2{
     background:
         url("../imagenes/misiones/tablon.jpg.opdownload" ) no-repeat center center;
     background-size: cover;
+    }
+    p{
+    color: #f8d878;
+    text-shadow: 1px 1px 0 #2b1608;
+    font-size: 18px;
     }
