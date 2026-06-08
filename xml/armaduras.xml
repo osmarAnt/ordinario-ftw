@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<armaduras>
+<armaduras xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/armaduras.xsd">
     <pieza>
         <nombre>Casco Rathalos</nombre>
         <tipo>Casco</tipo>

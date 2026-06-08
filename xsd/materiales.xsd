@@ -1,0 +1,20 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="materiales">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="material" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="nombre"/>
+              <xs:element type="xs:string" name="monstruo"/>
+              <xs:element type="xs:string" name="tipo"/>
+              <xs:element type="xs:byte" name="rareza"/>
+              <xs:element type="xs:string" name="obtencion"/>
+              <xs:element type="xs:string" name="uso"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

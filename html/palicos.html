@@ -1,33 +1,140 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Palicos</title>
+
     <link rel="stylesheet" href="../css/principal.css">
     <link rel="stylesheet" href="../css/palico.css">
 </head>
 <body>
-    <h1>Palicos</h1>
-    <div class="contenedor">
-        <div>
-            <img src="../imagenes/palico.png" width="500"  alt="Palicos" class="imagen-principal">
-        </div>
-            <div>
-            <p class="palico">
-            Los Palico son fieles compañeros felinos entrenados para asistir a los cazadores durante sus misiones. A pesar de su pequeño tamaño, poseen gran valentía, habilidad y conocimiento del entorno, lo que los convierte en aliados indispensables frente a criaturas mucho más grandes y peligrosas. En combate pueden atacar, distraer al monstruo, curar al cazador o utilizar herramientas especiales para cambiar el rumbo de una cacería.
-            </p>
-            <p class="palico">
-                Cada Palico puede equiparse con armas, armaduras y distintos tipos de apoyo, permitiendo que su función se adapte a las necesidades del cazador. Algunos se especializan en curación, otros en combate directo, recolección de materiales o asistencia táctica. Gracias a esto, no son simples acompañantes, sino miembros activos del equipo de caza.
-            </p>
-            <p class="palico">
-                Además de su utilidad, los Palico destacan por su personalidad y presencia dentro del mundo de Monster Hunter. Su aspecto felino, sus gestos expresivos y su lealtad hacia el cazador les dan un encanto special. Ya sea preparando recursos, acompañando en el campamento o enfrentándose a monstruos enormes, los Palico representan la compañía, el apoyo y el espíritu aventurero que caracteriza a todo buen grupo de caza.
-            </p>
-        </div>
-    </div>
+
+    <header>
+        <h1>Palicos</h1>
+    </header>
+
+    <main>
+
+        <section class="contenedor">
+            <div class="contenedor-imagen-palico">
+                <img src="../imagenes/palico.png" width="500" alt="Palico con equipo de cazador" class="imagen-principal">
+            </div>
+
+            <article class="texto-palico">
+                <p class="palico">
+                    Los Palico son fieles compañeros felinos entrenados para asistir a los cazadores durante sus misiones. A pesar de su pequeño tamaño, poseen gran valentía, habilidad y conocimiento del entorno, lo que los convierte en aliados indispensables frente a criaturas mucho más grandes y peligrosas. En combate pueden atacar, distraer al monstruo, curar al cazador o utilizar herramientas especiales para cambiar el rumbo de una cacería.
+                </p>
+
+                <p class="palico">
+                    Cada Palico puede equiparse con armas, armaduras y distintos tipos de apoyo, permitiendo que su función se adapte a las necesidades del cazador. Algunos se especializan en curación, otros en combate directo, recolección de materiales o asistencia táctica. Gracias a esto, no son simples acompañantes, sino miembros activos del equipo de caza.
+                </p>
+
+                <p class="palico">
+                    Además de su utilidad, los Palico destacan por su personalidad y presencia dentro del mundo de Monster Hunter. Su aspecto felino, sus gestos expresivos y su lealtad hacia el cazador les dan un encanto especial. Ya sea preparando recursos, acompañando en el campamento o enfrentándose a monstruos enormes, los Palico representan la compañía, el apoyo y el espíritu aventurero que caracteriza a todo buen grupo de caza.
+                </p>
+            </article>
+        </section>
+
+        <section class="formulario-palico">
+            <h2>Crea tu compañero Palico</h2>
+
+            <form id="form-palico">
+                <div class="campo-formulario">
+                    <label for="nombre-palico">Nombre del Palico</label>
+                    <input type="text" id="nombre-palico" placeholder="Ejemplo: Michi Destructor" required>
+                </div>
+
+                <div class="campo-formulario">
+                    <label for="tipo-apoyo">Tipo de apoyo</label>
+                    <select id="tipo-apoyo" required>
+                        <option value="">Selecciona un tipo</option>
+                        <option value="Curación">Curación</option>
+                        <option value="Ataque">Ataque</option>
+                        <option value="Recolección">Recolección</option>
+                        <option value="Defensa">Defensa</option>
+                        <option value="Trampas">Trampas</option>
+                    </select>
+                </div>
+
+                <fieldset class="campo-formulario">
+                    <legend>Color de pelaje</legend>
+
+                    <label>
+                        <input type="radio" name="pelaje" value="Negro" checked>
+                        Negro
+                    </label>
+
+                    <label>
+                        <input type="radio" name="pelaje" value="Blanco">
+                        Blanco
+                    </label>
+
+                    <label>
+                        <input type="radio" name="pelaje" value="Naranja">
+                        Naranja
+                    </label>
+
+                    <label>
+                        <input type="radio" name="pelaje" value="Gris">
+                        Gris
+                    </label>
+                </fieldset>
+
+                <fieldset class="campo-formulario">
+                    <legend>Habilidades</legend>
+
+                    <label>
+                        <input type="checkbox" value="Curar al cazador" class="habilidad-palico">
+                        Curar al cazador
+                    </label>
+
+                    <label>
+                        <input type="checkbox" value="Colocar trampas" class="habilidad-palico">
+                        Colocar trampas
+                    </label>
+
+                    <label>
+                        <input type="checkbox" value="Recolectar materiales" class="habilidad-palico">
+                        Recolectar materiales
+                    </label>
+
+                    <label>
+                        <input type="checkbox" value="Distraer monstruos" class="habilidad-palico">
+                        Distraer monstruos
+                    </label>
+                </fieldset>
+
+                <div class="campo-formulario">
+                    <label for="confianza-palico">Nivel de confianza</label>
+                    <input type="range" id="confianza-palico" min="1" max="10" value="5">
+                    <span id="valor-confianza">5</span>
+                </div>
+
+                <div class="campo-formulario">
+                    <label for="descripcion-palico">Descripción del Palico</label>
+                    <textarea id="descripcion-palico" rows="4" placeholder="Describe la personalidad de tu Palico..."></textarea>
+                </div>
+
+                <button type="submit" class="boton-palico">Generar ficha</button>
+            </form>
+        </section>
+
+        <section class="ficha-palico">
+            <h2>Ficha del Palico</h2>
+
+            <article id="resultado-palico" class="resultado-palico">
+                <p>Llena el formulario para generar la ficha de tu Palico.</p>
+            </article>
+        </section>
+
+    </main>
+
     <nav class="menu-principal">
         <a href="principal.html" class="boton-volver">Volver al inicio</a>
     </nav>
+
     <script src="../scripts/sonidos.js"></script>
+    <script src="../scripts/palico.js"></script>
 </body>
 </html>

@@ -37,3 +37,142 @@
     max-height: 100%;
     object-fit: contain;
 }
+.formulario-palico,
+.ficha-palico {
+    width: 85%;
+    margin: 25px auto;
+    padding: 25px;
+
+    background-color: #2b1608d9;
+    border: 4px double #b8860b;
+    border-radius: 8px;
+
+    color: #f8d878;
+    box-sizing: border-box;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.45);
+}
+
+.formulario-palico h2,
+.ficha-palico h2 {
+    text-align: center;
+    color: #f8d878;
+    text-shadow: 2px 2px 0 #2b1608;
+    margin-bottom: 20px;
+}
+
+#form-palico {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.campo-formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    padding: 15px;
+
+    background-color: #3a1c0a;
+    border: 3px solid #b8860b;
+    border-radius: 8px;
+}
+
+.campo-formulario label,
+.campo-formulario legend {
+    color: #f8d878;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 #2b1608;
+}
+
+.campo-formulario input[type="text"],
+.campo-formulario select,
+.campo-formulario textarea {
+    padding: 10px 15px;
+
+    background-color: #f8d878;
+    color: #2b1608;
+
+    border: 3px solid #471e02;
+    border-radius: 6px;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    outline: none;
+}
+
+.campo-formulario input[type="text"]:focus,
+.campo-formulario select:focus,
+.campo-formulario textarea:focus {
+    box-shadow: 0 0 8px #eec45a;
+}
+
+.campo-formulario input[type="radio"],
+.campo-formulario input[type="checkbox"] {
+    margin-right: 8px;
+    transform: scale(1.2);
+}
+
+.campo-formulario input[type="range"] {
+    accent-color: #b8860b;
+}
+
+#valor-confianza {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.boton-palico {
+    width: fit-content;
+    margin: 0 auto;
+    padding: 12px 25px;
+
+    background-color: #6b3a13;
+    color: #f8d878;
+
+    border: 3px solid #b8860b;
+    border-radius: 8px;
+
+    font-size: 18px;
+    font-weight: bold;
+
+    cursor: pointer;
+    transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+.boton-palico:hover {
+    transform: scale(1.08);
+    filter: brightness(1.2);
+}
+
+.resultado-palico {
+    padding: 20px;
+
+    background-color: #3a1c0a;
+    border: 3px solid #b8860b;
+    border-radius: 8px;
+
+    color: #f8d878;
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+.resultado-palico h3 {
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 2px 2px 0 #2b1608;
+}
+
+@media (max-width: 700px) {
+    .formulario-palico,
+    .ficha-palico {
+        width: 95%;
+        padding: 18px;
+    }
+
+    .boton-palico {
+        width: 100%;
+    }
+}

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<misiones>
+<misiones xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/misiones.xsd">
     <mision tipo="caza">
         <titulo>Caza un Rathalos</titulo>
         <descripcion>Caza al rey de los cielos antes de que escape de la zona.</descripcion>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<armas>
+<armas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/armas.xsd">
     <arma>
         <nombre>Gran Espada</nombre>
         <descripcion>Arma pesada y poderosa, ideal para ataques cargados que causan mucho daño.</descripcion>

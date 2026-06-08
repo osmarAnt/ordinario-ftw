@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<monstruos>
+<monstruos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/monstruos.xsd">
     <monstruo>
         <nombre>Rathalos</nombre>
         <descripcion>El Rey del Cielo, un dragón volador conocido por su agresividad y ataques de fuego.</descripcion>
