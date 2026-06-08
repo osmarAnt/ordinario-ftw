@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<materiales>
+    <material>
+        <nombre>Escama de Rathalos</nombre>
+        <monstruo>Rathalos</monstruo>
+        <tipo>escama</tipo>
+        <rareza>3</rareza>
+        <obtencion>Caza, recompensa o tallado del cuerpo</obtencion>
+        <uso>Fabricación de armaduras y armas de Rathalos</uso>
+    </material>
+
+    <material>
+        <nombre>Cola de Rathalos</nombre>
+        <monstruo>Rathalos</monstruo>
+        <tipo>cola</tipo>
+        <rareza>4</rareza>
+        <obtencion>Cortar la cola y tallarla</obtencion>
+        <uso>Mejora de armas cortantes</uso>
+    </material>
+
+    <material>
+        <nombre>Placa de Rathalos</nombre>
+        <monstruo>Rathalos</monstruo>
+        <tipo>placa</tipo>
+        <rareza>5</rareza>
+        <obtencion>Recompensa rara, captura o tallado</obtencion>
+        <uso>Fabricación de equipo raro</uso>
+    </material>
+
+    <material>
+        <nombre>Gema de Rathalos</nombre>
+        <monstruo>Rathalos</monstruo>
+        <tipo>gema</tipo>
+        <rareza>7</rareza>
+        <obtencion>Recompensa muy rara de caza o captura</obtencion>
+        <uso>Mejoras avanzadas de armas y armaduras</uso>
+    </material>
+
+    <material>
+        <nombre>Piel de Anjanath</nombre>
+        <monstruo>Anjanath</monstruo>
+        <tipo>piel</tipo>
+        <rareza>3</rareza>
+        <obtencion>Caza o recompensa de misión</obtencion>
+        <uso>Armaduras resistentes al fuego</uso>
+    </material>
+
+    <material>
+        <nombre>Glándula de fuego</nombre>
+        <monstruo>Anjanath</monstruo>
+        <tipo>glandula</tipo>
+        <rareza>4</rareza>
+        <obtencion>Romper partes de monstruos de fuego</obtencion>
+        <uso>Armas con elemento fuego</uso>
+    </material>
+
+    <material>
+        <nombre>Hueso Wyvern</nombre>
+        <monstruo>Varios</monstruo>
+        <tipo>hueso</tipo>
+        <rareza>2</rareza>
+        <obtencion>Recompensas de caza o recolección</obtencion>
+        <uso>Material base para equipo</uso>
+    </material>
+
+    <material>
+        <nombre>Cabeza de Barroth</nombre>
+        <monstruo>Barroth</monstruo>
+        <tipo>cabeza</tipo>
+        <rareza>4</rareza>
+        <obtencion>Romper la cabeza de Barroth</obtencion>
+        <uso>Fabricación de martillos y cascos</uso>
+    </material>
+
+    <material>
+        <nombre>Aleta de Jyuratodus</nombre>
+        <monstruo>Jyuratodus</monstruo>
+        <tipo>generico</tipo>
+        <rareza>3</rareza>
+        <obtencion>Romper aletas o recompensa de misión</obtencion>
+        <uso>Equipo de monstruos acuáticos</uso>
+    </material>
+</materiales>

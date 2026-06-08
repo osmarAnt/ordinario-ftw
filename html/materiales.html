@@ -1,15 +1,80 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Materiales</title>
+
     <link rel="stylesheet" href="../css/principal.css">
+    <link rel="stylesheet" href="../css/tablas.css">
+    <link rel="stylesheet" href="../css/materiales.css">
 </head>
 <body>
-    <h1>Materiales</h1>
+
+    <header>
+        <h1>Materiales</h1>
+    </header>
+
+    <main>
+
+        <section class="intro-materiales">
+            <h2>Materiales de monstruos</h2>
+            <p>
+                Los materiales se obtienen al cazar, capturar o romper partes de los monstruos.
+                Algunos son comunes, como escamas o pieles, mientras que otros son raros,
+                como placas y gemas.
+            </p>
+        </section>
+
+        <section class="catalogo-materiales">
+            <h2>Catálogo de materiales</h2>
+
+            <div class="filtros-materiales">
+                <label for="filtro-material">Buscar material</label>
+                <input type="text" id="filtro-material" placeholder="Ejemplo: Rathalos, escama, gema...">
+
+                <label for="filtro-tipo">Filtrar por tipo</label>
+                <select id="filtro-tipo">
+                    <option value="">Todos los tipos</option>
+                    <option value="escama">Escama</option>
+                    <option value="cola">Cola</option>
+                    <option value="glandula">Glándula</option>
+                    <option value="piel">Piel</option>
+                    <option value="cabeza">Cabeza</option>
+                    <option value="hueso">Hueso</option>
+                    <option value="placa">Placa</option>
+                    <option value="gema">Gema</option>
+                    <option value="generico">Genérico</option>
+                </select>
+            </div>
+
+            <div class="contenedor-tabla-materiales">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Icono</th>
+                            <th>Material</th>
+                            <th>Monstruo</th>
+                            <th>Tipo</th>
+                            <th>Rareza</th>
+                            <th>Obtención</th>
+                            <th>Uso</th>
+                        </tr>
+                    </thead>
+
+                    <tbody id="tabla-materiales">
+                        <!-- Aquí se cargan los materiales desde XML -->
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+    </main>
+
     <nav class="menu-principal">
         <a href="principal.html" class="boton-volver">Volver al inicio</a>
     </nav>
+
+    <script src="../scripts/materiales.js"></script>
 </body>
 </html>

@@ -1,0 +1,173 @@
+.intro-materiales,
+.catalogo-materiales {
+    width: 85%;
+    margin: 25px auto;
+    padding: 25px;
+
+    background-color: #2b1608d9;
+    border: 4px double #b8860b;
+    border-radius: 8px;
+
+    color: #f8d878;
+    box-sizing: border-box;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.45);
+}
+
+.intro-materiales h2,
+.catalogo-materiales h2 {
+    text-align: center;
+    color: #f8d878;
+    text-shadow: 2px 2px 0 #2b1608;
+    margin-bottom: 15px;
+}
+
+.intro-materiales p,
+.catalogo-materiales p {
+    font-size: 18px;
+    line-height: 1.4;
+    color: #f8d878;
+    text-shadow: 1px 1px 0 #2b1608;
+}
+
+/* FILTROS */
+
+.filtros-materiales {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+    flex-wrap: wrap;
+    margin: 20px auto;
+    padding: 15px;
+
+    background-color: #3a1c0a;
+    border: 3px solid #b8860b;
+    border-radius: 8px;
+}
+
+.filtros-materiales label {
+    color: #f8d878;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 #2b1608;
+}
+
+.filtros-materiales input,
+.filtros-materiales select {
+    padding: 10px 15px;
+
+    background-color: #f8d878;
+    color: #2b1608;
+
+    border: 3px solid #471e02;
+    border-radius: 6px;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    outline: none;
+    cursor: pointer;
+}
+
+.filtros-materiales input {
+    min-width: 280px;
+}
+
+.filtros-materiales input::placeholder {
+    color: #6b3a13;
+}
+
+.filtros-materiales input:hover,
+.filtros-materiales select:hover,
+.filtros-materiales input:focus,
+.filtros-materiales select:focus {
+    filter: brightness(1.08);
+    box-shadow: 0 0 8px #eec45a;
+}
+
+/* TABLA */
+
+.contenedor-tabla-materiales {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.catalogo-materiales table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+
+    background-color: #3a1c0a;
+    color: #f8d878;
+}
+
+.catalogo-materiales th {
+    background-color: #6b3a13;
+    color: #f8d878;
+
+    padding: 12px;
+    border: 2px solid #b8860b;
+
+    text-shadow: 1px 1px 0 #2b1608;
+}
+
+.catalogo-materiales td {
+    padding: 10px;
+    border: 2px solid #b8860b;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.catalogo-materiales tr:hover {
+    background-color: #57300f;
+}
+
+/* ICONOS */
+
+.icono-material {
+    width: 45px;
+    height: 45px;
+    object-fit: contain;
+}
+
+/* Placas y gemas se remarcan porque son materiales raros */
+.material-raro {
+    background-color: rgba(184, 134, 11, 0.25);
+}
+
+.material-raro td {
+    color: #fff0a8;
+    font-weight: bold;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 700px) {
+    .intro-materiales,
+    .catalogo-materiales {
+        width: 95%;
+        padding: 18px;
+    }
+
+    .filtros-materiales {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .filtros-materiales input,
+    .filtros-materiales select {
+        width: 100%;
+        min-width: 0;
+        box-sizing: border-box;
+    }
+
+    .catalogo-materiales table {
+        font-size: 14px;
+    }
+
+    .icono-material {
+        width: 35px;
+        height: 35px;
+    }
+}
