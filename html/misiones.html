@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,21 +9,42 @@
 </head>
 <body>
 
-    <h1>Misiones</h1>
+    <header>
+        <h1>Misiones</h1>
+    </header>
 
-    <div class="tablon">
-        <div class="contenedor-categoria">
-        <div class="categorias">
-            <h2>Misiones</h2>
-            <ul id="lista-misiones-caza"></ul>
-        </div>
-        </div>
-        <div class="contenedor-misiones" id="contenedor-misiones"></div>
+    <main>
+        <section class="filtros-misiones">
+            <input type="text" id="filtro-nombre" placeholder="Buscar misión...">
 
-    <script src="../scripts/misiones.js"></script>
+            <select id="filtro-dificultad">
+                <option value="">Todas las dificultades</option>
+                <option value="★">★</option>
+                <option value="★★">★★</option>
+                <option value="★★★">★★★</option>
+                <option value="★★★★">★★★★</option>
+                <option value="★★★★★">★★★★★</option>
+            </select>
+        </section>
+
+        <section class="tablon">
+            <section class="contenedor-categoria">
+                <div class="categorias">
+                    <h2>Misiones</h2>
+                    <ul id="lista-misiones-caza"></ul>
+                </div>
+            </section>
+
+            <section class="contenedor-misiones" id="contenedor-misiones">
+                <!-- Aquí se insertan las misiones desde XML -->
+            </section>
+        </section>
+    </main>
+
     <nav class="menu-principal">
         <a href="principal.html" class="boton-volver">Volver al inicio</a>
     </nav>
 
+    <script src="../scripts/misiones.js"></script>
 </body>
 </html>

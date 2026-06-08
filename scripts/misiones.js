@@ -1,11 +1,15 @@
 const papeles = [
     "../imagenes/misiones/hoja1.png",
     "../imagenes/misiones/hoja2.png",
-    "../imagenes/misiones/hoja3.png",
     "../imagenes/misiones/hoja4.png"
 ];
 
 const contenedorMisiones = document.getElementById("contenedor-misiones");
+
+const filtroNombre = document.getElementById("filtro-nombre");
+const filtroDificultad = document.getElementById("filtro-dificultad");
+
+let listaMisiones = [];
 
 fetch("../xml/misiones.xml")
     .then(respuesta => respuesta.text())
@@ -21,12 +25,59 @@ fetch("../xml/misiones.xml")
             const dificultad = misionXML.querySelector("dificultad").textContent;
             const recompensa = misionXML.querySelector("recompensa").textContent;
 
-            crearMision(titulo, descripcion, dificultad, recompensa);
+            const mision = {
+                titulo: titulo,
+                descripcion: descripcion,
+                dificultad: dificultad,
+                recompensa: recompensa
+            };
+
+            listaMisiones.push(mision);
         });
+
+        mostrarMisiones(listaMisiones);
     })
     .catch(error => {
         console.error("Error al cargar el XML:", error);
     });
+
+function mostrarMisiones(misiones) {
+    contenedorMisiones.innerHTML = "";
+
+    misiones.forEach(mision => {
+        crearMision(
+            mision.titulo,
+            mision.descripcion,
+            mision.dificultad,
+            mision.recompensa
+        );
+    });
+}
+
+function filtrarMisiones() {
+    const textoBuscado = filtroNombre.value.toLowerCase();
+    const dificultadSeleccionada = filtroDificultad.value;
+
+    const misionesFiltradas = listaMisiones.filter(mision => {
+        const titulo = mision.titulo.toLowerCase();
+        const descripcion = mision.descripcion.toLowerCase();
+
+        const coincideTexto =
+            titulo.includes(textoBuscado) ||
+            descripcion.includes(textoBuscado);
+
+        const coincideDificultad =
+            dificultadSeleccionada === "" ||
+            mision.dificultad === dificultadSeleccionada;
+
+        return coincideTexto && coincideDificultad;
+    });
+
+    mostrarMisiones(misionesFiltradas);
+}
+
+filtroNombre.addEventListener("input", filtrarMisiones);
+filtroDificultad.addEventListener("change", filtrarMisiones);
 
 function crearMision(titulo, descripcion, dificultad, recompensa) {
     const mision = document.createElement("div");

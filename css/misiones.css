@@ -2,9 +2,12 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    height: 300px;
+    align-items: flex-start;
+
     gap: 20px;
     padding: 20px;
+
+    min-height: 500px;
 }
 .contenedor-categoria{
     display: flex;
@@ -99,15 +102,68 @@ h2{
     border-radius: 8px;
     padding: 20px;
     width: 85%;
-    height: 700px;
+    min-height: 700px;
     margin: 20px auto;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    background:
-        url("../imagenes/misiones/tablon.jpg.opdownload" ) no-repeat center center;
+
+    background: url("../imagenes/misiones/tablon.jpg.opdownload") no-repeat center center;
     background-size: cover;
-    }
+}
     p{
     color: #f8d878;
     text-shadow: 1px 1px 0 #2b1608;
     font-size: 18px;
     }
+.filtros-misiones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+    width: 85%;
+    margin: 20px auto;
+    padding: 15px;
+
+    background-color: #2b1608;
+    border: 4px double #b8860b;
+    border-radius: 8px;
+
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+.filtros-misiones input,
+.filtros-misiones select {
+    padding: 10px 15px;
+
+    background-color: #f8d878;
+    color: #2b1608;
+
+    border: 3px solid #471e02;
+    border-radius: 6px;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    outline: none;
+    cursor: pointer;
+}
+
+.filtros-misiones input {
+    width: 250px;
+}
+
+.filtros-misiones input::placeholder {
+    color: #6b3a13;
+}
+
+.filtros-misiones input:focus,
+.filtros-misiones select:focus {
+    border-color: #eec45a;
+    box-shadow: 0 0 8px #eec45a;
+}
+
+.filtros-misiones input:hover,
+.filtros-misiones select:hover {
+    filter: brightness(1.08);
+}
