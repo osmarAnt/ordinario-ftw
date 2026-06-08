@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<armaduras>
+    <pieza>
+        <nombre>Casco Rathalos</nombre>
+        <tipo>Casco</tipo>
+        <defensa>32</defensa>
+        <fuego>3</fuego>
+        <agua>-2</agua>
+        <rayo>1</rayo>
+        <hielo>-1</hielo>
+        <dragon>-3</dragon>
+        <habilidad>Ataque</habilidad>
+    </pieza>
+
+    <pieza>
+        <nombre>Pechera Rathalos</nombre>
+        <tipo>Pechera</tipo>
+        <defensa>34</defensa>
+        <fuego>3</fuego>
+        <agua>-2</agua>
+        <rayo>1</rayo>
+        <hielo>-1</hielo>
+        <dragon>-3</dragon>
+        <habilidad>Punto débil</habilidad>
+    </pieza>
+
+    <pieza>
+        <nombre>Guantes Rathalos</nombre>
+        <tipo>Guantes</tipo>
+        <defensa>30</defensa>
+        <fuego>3</fuego>
+        <agua>-2</agua>
+        <rayo>1</rayo>
+        <hielo>-1</hielo>
+        <dragon>-3</dragon>
+        <habilidad>Ataque</habilidad>
+    </pieza>
+
+    <pieza>
+        <nombre>Cintura Rathalos</nombre>
+        <tipo>Cintura</tipo>
+        <defensa>31</defensa>
+        <fuego>3</fuego>
+        <agua>-2</agua>
+        <rayo>1</rayo>
+        <hielo>-1</hielo>
+        <dragon>-3</dragon>
+        <habilidad>Resistencia al fuego</habilidad>
+    </pieza>
+
+    <pieza>
+        <nombre>Botas Rathalos</nombre>
+        <tipo>Botas</tipo>
+        <defensa>29</defensa>
+        <fuego>3</fuego>
+        <agua>-2</agua>
+        <rayo>1</rayo>
+        <hielo>-1</hielo>
+        <dragon>-3</dragon>
+        <habilidad>Salto</habilidad>
+    </pieza>
+</armaduras>

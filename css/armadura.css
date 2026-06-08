@@ -1,0 +1,320 @@
+/* ============================= */
+/* PÁGINA DE ARMADURAS */
+/* ============================= */
+
+.explicacion-armaduras,
+.partes-armadura,
+.simulador-armadura,
+.catalogo-armaduras {
+    width: 85%;
+    margin: 25px auto;
+    padding: 25px;
+
+    background-color: #2b1608d9;
+    border: 4px double #b8860b;
+    border-radius: 8px;
+
+    box-sizing: border-box;
+    color: #eec45a;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.45);
+}
+
+.explicacion-armaduras h2,
+.partes-armadura h2,
+.simulador-armadura h2,
+.catalogo-armaduras h2 {
+    text-align: center;
+    color: #f8d878;
+    text-shadow: 2px 2px 0 #2b1608;
+    margin-bottom: 20px;
+}
+
+.explicacion-armaduras p,
+.simulador-armadura p,
+.catalogo-armaduras p {
+    font-size: 18px;
+    line-height: 1.4;
+    color: #f8d878;
+    text-shadow: 1px 1px 0 #2b1608;
+}
+
+
+/* ============================= */
+/* TARJETAS DE LAS PARTES */
+/* ============================= */
+
+.partes-armadura {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 18px;
+}
+
+.partes-armadura h2 {
+    width: 100%;
+}
+
+.pieza-armadura {
+    width: 220px;
+    min-height: 160px;
+
+    padding: 18px;
+
+    background: linear-gradient(#6b3a13, #2b1608);
+    border: 3px solid #b8860b;
+    border-radius: 8px;
+
+    box-sizing: border-box;
+
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.pieza-armadura:hover {
+    transform: translateY(-6px) scale(1.03);
+    filter: brightness(1.15);
+}
+
+.pieza-armadura h3 {
+    color: #f8d878;
+    text-align: center;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 0 #2b1608;
+}
+
+.pieza-armadura p {
+    color: #eec45a;
+    font-size: 16px;
+    line-height: 1.3;
+    text-shadow: 1px 1px 0 #2b1608;
+}
+
+
+/* ============================= */
+/* SIMULADOR */
+/* ============================= */
+
+.contenedor-simulador {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+.selector-piezas,
+.estadisticas-set {
+    flex: 1;
+    min-width: 280px;
+
+    padding: 20px;
+
+    background-color: #3a1c0a;
+    border: 3px solid #b8860b;
+    border-radius: 8px;
+
+    box-sizing: border-box;
+}
+
+.selector-piezas h3,
+.estadisticas-set h3,
+.estadisticas-set h4 {
+    color: #f8d878;
+    text-align: center;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px 0 #2b1608;
+}
+
+.selector-piezas label {
+    display: block;
+
+    margin-top: 12px;
+    margin-bottom: 5px;
+
+    color: #f8d878;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 #2b1608;
+}
+
+.selector-piezas select {
+    width: 100%;
+    padding: 10px;
+
+    background-color: #f8d878;
+    color: #2b1608;
+
+    border: 3px solid #471e02;
+    border-radius: 6px;
+
+    font-size: 15px;
+    font-weight: bold;
+
+    outline: none;
+    cursor: pointer;
+}
+
+.selector-piezas select:hover,
+.selector-piezas select:focus {
+    filter: brightness(1.08);
+    box-shadow: 0 0 8px #eec45a;
+}
+
+.estadisticas-set p {
+    font-size: 17px;
+    color: #f8d878;
+    margin: 8px 0;
+}
+
+.estadisticas-set span {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+#lista-habilidades {
+    list-style: square;
+    padding-left: 25px;
+    color: #f8d878;
+}
+
+#lista-habilidades li {
+    margin-bottom: 5px;
+}
+
+
+/* ============================= */
+/* FILTRO DE TABLA */
+/* ============================= */
+
+.filtros-tabla {
+    width: 100%;
+    margin: 20px auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.filtros-tabla label {
+    color: #f8d878;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 #2b1608;
+}
+
+.filtros-tabla input {
+    width: 60%;
+    min-width: 250px;
+
+    padding: 12px 15px;
+
+    background-color: #f8d878;
+    color: #2b1608;
+
+    border: 3px solid #471e02;
+    border-radius: 6px;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    outline: none;
+
+    box-shadow: inset 0 0 5px rgba(43, 22, 8, 0.5);
+    transition: transform 0.2s ease, filter 0.2s ease, box-shadow 0.2s ease;
+}
+
+.filtros-tabla input::placeholder {
+    color: #6b3a13;
+}
+
+.filtros-tabla input:hover,
+.filtros-tabla input:focus {
+    transform: scale(1.02);
+    filter: brightness(1.08);
+    box-shadow: 0 0 10px #eec45a;
+}
+
+
+/* ============================= */
+/* TABLA */
+/* ============================= */
+
+.catalogo-armaduras {
+    overflow-x: auto;
+}
+
+.catalogo-armaduras table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+
+    background-color: #3a1c0a;
+    color: #f8d878;
+}
+
+.catalogo-armaduras th {
+    background-color: #6b3a13;
+    color: #f8d878;
+    padding: 12px;
+    border: 2px solid #b8860b;
+    text-shadow: 1px 1px 0 #2b1608;
+}
+
+.catalogo-armaduras td {
+    padding: 10px;
+    border: 2px solid #b8860b;
+    text-align: center;
+}
+
+.catalogo-armaduras tr:hover {
+    background-color: #57300f;
+}
+
+
+/* ============================= */
+/* RESPONSIVE */
+/* ============================= */
+
+@media (max-width: 800px) {
+    .explicacion-armaduras,
+    .partes-armadura,
+    .simulador-armadura,
+    .catalogo-armaduras {
+        width: 95%;
+        padding: 18px;
+    }
+
+    .contenedor-simulador {
+        flex-direction: column;
+    }
+
+    .selector-piezas,
+    .estadisticas-set {
+        width: 100%;
+        min-width: 0;
+    }
+
+    .filtros-tabla input {
+        width: 100%;
+        min-width: 0;
+    }
+
+    .pieza-armadura {
+        width: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+    .explicacion-armaduras p,
+    .simulador-armadura p,
+    .catalogo-armaduras p {
+        font-size: 16px;
+    }
+
+    .selector-piezas select {
+        font-size: 14px;
+    }
+
+    .catalogo-armaduras table {
+        font-size: 14px;
+    }
+}

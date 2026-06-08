@@ -1,15 +1,166 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Armaduras</title>
+
     <link rel="stylesheet" href="../css/principal.css">
+    <link rel="stylesheet" href="../css/tablas.css">
+    <link rel="stylesheet" href="../css/armadura.css">
 </head>
 <body>
-    <h1>Armaduras</h1>
+
+    <header>
+        <h1>Armaduras</h1>
+    </header>
+
+    <main>
+
+        <section class="explicacion-armaduras">
+            <h2>¿Cómo funcionan las armaduras?</h2>
+
+            <p>
+                En Monster Hunter, las armaduras no solo sirven para aumentar la defensa
+                del cazador. Cada pieza puede aportar resistencias elementales, habilidades
+                especiales y ranuras para decoraciones.
+            </p>
+
+            <p>
+                Un set completo normalmente está formado por cinco piezas: casco, pechera,
+                guantes, cintura y botas. Combinar correctamente estas piezas permite crear
+                armaduras enfocadas en ataque, defensa, recolección, evasión o resistencia
+                elemental.
+            </p>
+        </section>
+
+        <section class="partes-armadura">
+            <h2>Partes de una armadura</h2>
+
+            <article class="pieza-armadura">
+                <h3>Casco</h3>
+                <p>Protege la cabeza y suele aportar habilidades ofensivas o de utilidad.</p>
+            </article>
+
+            <article class="pieza-armadura">
+                <h3>Pechera</h3>
+                <p>Es una de las piezas principales y normalmente aporta buena defensa base.</p>
+            </article>
+
+            <article class="pieza-armadura">
+                <h3>Guantes</h3>
+                <p>Pueden mejorar habilidades relacionadas con ataque, afinidad o manejo de armas.</p>
+            </article>
+
+            <article class="pieza-armadura">
+                <h3>Cintura</h3>
+                <p>Complementa el set y ayuda a equilibrar habilidades y resistencias.</p>
+            </article>
+
+            <article class="pieza-armadura">
+                <h3>Botas</h3>
+                <p>Suelen aportar habilidades de movilidad, evasión o resistencia.</p>
+            </article>
+        </section>
+
+        <section class="simulador-armadura">
+            <h2>Simulador de set</h2>
+
+            <p>
+                Selecciona una pieza de cada tipo para calcular la defensa total,
+                resistencias elementales y habilidades del conjunto.
+            </p>
+
+            <div class="contenedor-simulador">
+
+                <article class="selector-piezas">
+                    <h3>Selecciona tus piezas</h3>
+
+                    <label for="select-casco">Casco</label>
+                    <select id="select-casco">
+                        <option value="">Selecciona un casco</option>
+                    </select>
+
+                    <label for="select-pechera">Pechera</label>
+                    <select id="select-pechera">
+                        <option value="">Selecciona una pechera</option>
+                    </select>
+
+                    <label for="select-guantes">Guantes</label>
+                    <select id="select-guantes">
+                        <option value="">Selecciona unos guantes</option>
+                    </select>
+
+                    <label for="select-cintura">Cintura</label>
+                    <select id="select-cintura">
+                        <option value="">Selecciona una cintura</option>
+                    </select>
+
+                    <label for="select-botas">Botas</label>
+                    <select id="select-botas">
+                        <option value="">Selecciona unas botas</option>
+                    </select>
+                </article>
+
+                <article class="estadisticas-set">
+                    <h3>Estadísticas del set</h3>
+
+                    <p>Defensa total: <span id="defensa-total">0</span></p>
+                    <p>Resistencia fuego: <span id="res-fuego">0</span></p>
+                    <p>Resistencia agua: <span id="res-agua">0</span></p>
+                    <p>Resistencia rayo: <span id="res-rayo">0</span></p>
+                    <p>Resistencia hielo: <span id="res-hielo">0</span></p>
+                    <p>Resistencia dragón: <span id="res-dragon">0</span></p>
+
+                    <h4>Habilidades activas</h4>
+                    <ul id="lista-habilidades">
+                        <li>Ninguna pieza seleccionada</li>
+                    </ul>
+                </article>
+
+            </div>
+        </section>
+
+        <section class="catalogo-armaduras">
+            <h2>Catálogo de piezas</h2>
+
+            <p>
+                Esta tabla muestra las piezas disponibles cargadas desde XML.
+                Puedes buscar por nombre, tipo o habilidad.
+            </p>
+
+            <div class="filtros-tabla">
+                <label for="filtro-armadura">Buscar pieza</label>
+                <input type="text" id="filtro-armadura" placeholder="Ejemplo: Rathalos, Casco, Ataque...">
+            </div>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Tipo</th>
+                        <th>Defensa</th>
+                        <th>Fuego</th>
+                        <th>Agua</th>
+                        <th>Rayo</th>
+                        <th>Hielo</th>
+                        <th>Dragón</th>
+                        <th>Habilidad</th>
+                    </tr>
+                </thead>
+
+                <tbody id="tabla-armaduras">
+                    <!-- Aquí se cargan las piezas desde XML usando JavaScript -->
+                </tbody>
+            </table>
+        </section>
+
+    </main>
+
     <nav class="menu-principal">
         <a href="principal.html" class="boton-volver">Volver al inicio</a>
     </nav>
+
+    <script src="../scripts/armaduras.js"></script>
 </body>
 </html>

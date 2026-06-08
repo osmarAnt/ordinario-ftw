@@ -14,9 +14,6 @@ botones.forEach(boton => {
 
 
 function reproducirSonido(audio) {
-    if (!audioActivado) {
-        return;
-    }
 
     audio.currentTime = 0;
     audio.play();
