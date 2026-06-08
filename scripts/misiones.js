@@ -3,7 +3,7 @@ const papeles = [
     "../imagenes/misiones/hoja2.png",
     "../imagenes/misiones/hoja4.png"
 ];
-
+const sonidoSello = new Audio("../sonidos/menu4.mp3");
 const contenedorMisiones = document.getElementById("contenedor-misiones");
 
 const filtroNombre = document.getElementById("filtro-nombre");
@@ -79,6 +79,10 @@ function filtrarMisiones() {
 filtroNombre.addEventListener("input", filtrarMisiones);
 filtroDificultad.addEventListener("change", filtrarMisiones);
 
+function reproducirSello() {
+    sonidoSello.currentTime = 0;
+    sonidoSello.play();
+}
 function crearMision(titulo, descripcion, dificultad, recompensa) {
     const mision = document.createElement("div");
     mision.classList.add("mision");
@@ -102,7 +106,7 @@ function crearMision(titulo, descripcion, dificultad, recompensa) {
         mision.classList.remove("sellada");
         void mision.offsetWidth;
         mision.classList.add("sellada");
-
+        reproducirSello();
         console.log("Misión seleccionada:", titulo);
     });
 

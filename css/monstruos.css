@@ -1,0 +1,173 @@
+/* ============================= */
+/* PÁGINA DE MONSTRUOS */
+/* ============================= */
+
+.intro-monstruos,
+.catalogo-monstruos {
+    width: 85%;
+    margin: 25px auto;
+    padding: 25px;
+
+    background-color: #2b1608d9;
+    border: 4px double #b8860b;
+    border-radius: 8px;
+
+    color: #f8d878;
+    box-sizing: border-box;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.45);
+}
+
+.intro-monstruos h2,
+.catalogo-monstruos h2 {
+    text-align: center;
+    color: #f8d878;
+    text-shadow: 2px 2px 0 #2b1608;
+    margin-bottom: 15px;
+}
+
+.intro-monstruos p {
+    font-size: 18px;
+    line-height: 1.4;
+    color: #f8d878;
+    text-shadow: 1px 1px 0 #2b1608;
+}
+
+/* ============================= */
+/* FILTROS */
+/* ============================= */
+
+.filtros-monstruos {
+    width: 100%;
+    margin: 20px auto;
+    padding: 15px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+
+    background-color: #3a1c0a;
+    border: 3px solid #b8860b;
+    border-radius: 8px;
+
+    box-sizing: border-box;
+}
+
+.filtros-monstruos label {
+    color: #f8d878;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 #2b1608;
+}
+
+.filtros-monstruos input,
+.filtros-monstruos select {
+    padding: 10px 15px;
+
+    background-color: #f8d878;
+    color: #2b1608;
+
+    border: 3px solid #471e02;
+    border-radius: 6px;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    outline: none;
+    cursor: pointer;
+}
+
+.filtros-monstruos input {
+    min-width: 280px;
+}
+
+.filtros-monstruos input::placeholder {
+    color: #6b3a13;
+}
+
+.filtros-monstruos input:hover,
+.filtros-monstruos select:hover,
+.filtros-monstruos input:focus,
+.filtros-monstruos select:focus {
+    filter: brightness(1.08);
+    box-shadow: 0 0 8px #eec45a;
+}
+
+/* ============================= */
+/* TABLA */
+/* ============================= */
+
+.contenedor-tabla-monstruos {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.contenedor-tabla-monstruos img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.catalogo-monstruos table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+
+    background-color: #3a1c0a;
+    color: #f8d878;
+}
+
+.catalogo-monstruos th {
+    background-color: #6b3a13;
+    color: #f8d878;
+
+    padding: 12px;
+    border: 2px solid #b8860b;
+
+    text-shadow: 1px 1px 0 #2b1608;
+}
+
+.catalogo-monstruos td {
+    padding: 10px;
+    border: 2px solid #b8860b;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.catalogo-monstruos tr:hover {
+    background-color: #57300f;
+}
+
+/* ============================= */
+/* RESPONSIVE */
+/* ============================= */
+
+@media (max-width: 700px) {
+    .intro-monstruos,
+    .catalogo-monstruos {
+        width: 95%;
+        padding: 18px;
+    }
+
+    .filtros-monstruos {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .filtros-monstruos input,
+    .filtros-monstruos select {
+        width: 100%;
+        min-width: 0;
+        box-sizing: border-box;
+    }
+
+    .contenedor-tabla-monstruos img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .catalogo-monstruos table {
+        font-size: 14px;
+    }
+}

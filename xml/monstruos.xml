@@ -4,63 +4,63 @@
     <monstruo>
         <nombre>Rathalos</nombre>
         <descripcion>El Rey del Cielo, un dragón volador conocido por su agresividad y ataques de fuego.</descripcion>
-        <clase>wyvern volador</clase>
+        <clase>Wyvern volador</clase>
         <imagen>../imagenes/monstruos/Rathalos.webp</imagen>
     </monstruo>
 
     <monstruo>
         <nombre>Rathian</nombre>
         <descripcion>La Reina del Cielo, una dragona venenosa que ataca con su cola y fuego venenoso.</descripcion>
-        <clase>wyvern volador</clase>
+        <clase>Wyvern volador</clase>
         <imagen>../imagenes/monstruos/Rathian.webp</imagen>
     </monstruo>
 
     <monstruo>
         <nombre>Diablos</nombre>
         <descripcion>Un monstruo subterráneo que ataca con embestidas y tiene cuernos afilados para causar daño.</descripcion>
-        <clase>wyvern volador</clase>
+        <clase>Wyvern volador</clase>
         <imagen>../imagenes/monstruos/Diablos.webp</imagen>
     </monstruo>
 
     <monstruo>
         <nombre>Kirin</nombre>
         <descripcion>Un monstruo eléctrico con apariencia de unicornio, capaz de lanzar rayos y ataques rápidos.</descripcion>
-        <clase>dragon anciano</clase>
+        <clase>Dragon anciano</clase>
         <imagen>../imagenes/monstruos/Kirin.webp</imagen>
     </monstruo>
 
     <monstruo>
         <nombre>Nargacuga</nombre>
         <descripcion>Un monstruo ágil y sigiloso que ataca con garras afiladas y puede camuflarse en la oscuridad.</descripcion>
-        <clase>wyvern volador</clase>
+        <clase>Wyvern volador</clase>
         <imagen>../imagenes/monstruos/Nargacuga.webp</imagen>
     </monstruo>
 
     <monstruo>
         <nombre>Zinogre</nombre>
         <descripcion>Un monstruo eléctrico que se carga con energía para realizar ataques devastadores.</descripcion>
-        <clase>wyvern de colmillos</clase>
+        <clase>Wyvern de colmillos</clase>
         <imagen>../imagenes/monstruos/Zinogre.webp</imagen>
     </monstruo>
 
     <monstruo>
         <nombre>Bazelgeuse</nombre>
         <descripcion>Un monstruo volador que lanza bombas explosivas desde el aire para atacar a los cazadores.</descripcion>
-        <clase>wyvern volador</clase>
+        <clase>Wyvern volador</clase>
         <imagen>../imagenes/monstruos/Bazelgeuse.webp</imagen>
     </monstruo>
 
     <monstruo>
         <nombre>Kushala Daora</nombre>
         <descripcion>Un dragón anciano que controla el viento para crear tormentas y dificultar el combate.</descripcion>
-        <clase>dragon anciano</clase>
+        <clase>Dragon anciano</clase>
         <imagen>../imagenes/monstruos/Kushala_Daora.webp</imagen>
     </monstruo>
 
     <monstruo>
         <nombre>Fatalis</nombre>
         <descripcion>un dragón legendario conocido por su poder destructivo y su comportamiento impredecible.</descripcion>
-        <clase>dragon anciano</clase>
+        <clase>Dragon anciano</clase>
         <imagen>../imagenes/monstruos/Fatalis.webp</imagen>
     </monstruo>
 </monstruos>

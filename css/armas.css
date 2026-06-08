@@ -1,0 +1,174 @@
+/* ============================= */
+/* PÁGINA DE ARMAS */
+/* ============================= */
+
+.intro-armas,
+.catalogo-armas {
+    width: 85%;
+    margin: 25px auto;
+    padding: 25px;
+
+    background-color: #2b1608d9;
+    border: 4px double #b8860b;
+    border-radius: 8px;
+
+    color: #f8d878;
+    box-sizing: border-box;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.45);
+}
+
+.intro-armas h2,
+.catalogo-armas h2 {
+    text-align: center;
+    color: #f8d878;
+    text-shadow: 2px 2px 0 #2b1608;
+    margin-bottom: 15px;
+}
+
+.intro-armas p {
+    font-size: 18px;
+    line-height: 1.4;
+    color: #f8d878;
+    text-shadow: 1px 1px 0 #2b1608;
+}
+
+/* ============================= */
+/* FILTROS */
+/* ============================= */
+
+.filtros-armas {
+    width: 100%;
+    margin: 20px auto;
+    padding: 15px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+
+    background-color: #3a1c0a;
+    border: 3px solid #b8860b;
+    border-radius: 8px;
+
+    box-sizing: border-box;
+}
+
+.filtros-armas label {
+    color: #f8d878;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 #2b1608;
+}
+
+.filtros-armas input,
+.filtros-armas select {
+    padding: 10px 15px;
+
+    background-color: #f8d878;
+    color: #2b1608;
+
+    border: 3px solid #471e02;
+    border-radius: 6px;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    outline: none;
+    cursor: pointer;
+}
+
+.filtros-armas input {
+    min-width: 280px;
+}
+
+.filtros-armas input::placeholder {
+    color: #6b3a13;
+}
+
+.filtros-armas input:hover,
+.filtros-armas select:hover,
+.filtros-armas input:focus,
+.filtros-armas select:focus {
+    filter: brightness(1.08);
+    box-shadow: 0 0 8px #eec45a;
+}
+
+/* ============================= */
+/* TABLA */
+/* ============================= */
+
+.contenedor-tabla-armas {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.contenedor-tabla-armas img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+/* Por si tablas.css no le da suficiente estilo */
+.catalogo-armas table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+
+    background-color: #3a1c0a;
+    color: #f8d878;
+}
+
+.catalogo-armas th {
+    background-color: #6b3a13;
+    color: #f8d878;
+
+    padding: 12px;
+    border: 2px solid #b8860b;
+
+    text-shadow: 1px 1px 0 #2b1608;
+}
+
+.catalogo-armas td {
+    padding: 10px;
+    border: 2px solid #b8860b;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.catalogo-armas tr:hover {
+    background-color: #57300f;
+}
+
+/* ============================= */
+/* RESPONSIVE */
+/* ============================= */
+
+@media (max-width: 700px) {
+    .intro-armas,
+    .catalogo-armas {
+        width: 95%;
+        padding: 18px;
+    }
+
+    .filtros-armas {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .filtros-armas input,
+    .filtros-armas select {
+        width: 100%;
+        min-width: 0;
+        box-sizing: border-box;
+    }
+
+    .contenedor-tabla-armas img {
+        width: 65px;
+        height: 65px;
+    }
+
+    .catalogo-armas table {
+        font-size: 14px;
+    }
+}

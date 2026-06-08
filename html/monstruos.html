@@ -1,31 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Monstruos</title>
+
     <link rel="stylesheet" href="../css/principal.css">
     <link rel="stylesheet" href="../css/tablas.css">
+    <link rel="stylesheet" href="../css/monstruos.css">
 </head>
 <body>
-    <h1>Monstruos</h1>
-    <table border="1"class="tabla"> 
-        <thead>
-            <tr>
-                <th>Imagen</th>
-                <th>Nombre</th>
-                <th>Clase</th>
-                <th>Descripción</th>
-            </tr>
-        </thead>
 
-        <tbody id="tabla-monstruos">
-            
-        </tbody>
-    </table>
+    <header>
+        <h1>Monstruos</h1>
+    </header>
+
+    <main>
+
+        <section class="intro-monstruos">
+            <h2>Bestiario de monstruos</h2>
+
+            <p>
+                Los monstruos son criaturas que habitan distintos ecosistemas y representan
+                el principal desafío para los cazadores. Cada uno posee una clase, ataques,
+                comportamiento y materiales característicos.
+            </p>
+        </section>
+
+        <section class="catalogo-monstruos">
+            <h2>Catálogo de monstruos</h2>
+
+            <div class="filtros-monstruos">
+                <label for="filtro-monstruo">Buscar monstruo</label>
+                <input type="text" id="filtro-monstruo" placeholder="Buscar por nombre, clase o descripción...">
+
+                <label for="filtro-clase">Clase</label>
+                <select id="filtro-clase">
+                    <option value="">Todas las clases</option>
+                    <option value="Wyvern volador">Wyvern volador</option>
+                    <option value="Wyvern bruto">Wyvern bruto</option>
+                    <option value="Wyvern pajaro">Wyvern pájaro</option>
+                    <option value="Wyvern de colmillos">Wyvern de colmillos</option>
+                    <option value="Leviatan">Leviatán</option>
+                    <option value="Dragon anciano">Dragón anciano</option>
+                </select>
+            </div>
+
+            <div class="contenedor-tabla-monstruos">
+                <table class="tabla">
+                    <thead>
+                        <tr>
+                            <th>Imagen</th>
+                            <th>Nombre</th>
+                            <th>Clase</th>
+                            <th>Descripción</th>
+                        </tr>
+                    </thead>
+
+                    <tbody id="tabla-monstruos">
+                        <!-- Aquí se cargan los monstruos desde XML usando JavaScript -->
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+    </main>
+
     <nav class="menu-principal">
         <a href="principal.html" class="boton-volver">Volver al inicio</a>
     </nav>
+
     <script src="../scripts/monstruos.js"></script>
     <script src="../scripts/sonidos.js"></script>
 </body>

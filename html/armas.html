@@ -1,31 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Armas</title>
+
     <link rel="stylesheet" href="../css/principal.css">
     <link rel="stylesheet" href="../css/tablas.css">
-</head><body>
+    <link rel="stylesheet" href="../css/armas.css">
+</head>
+<body>
 
-    <h1>Armas</h1>
+    <header>
+        <h1>Armas</h1>
+    </header>
 
-    <table border="1"class="tabla"> 
-        <thead>
-            <tr>
-                <th>Imagen</th>
-                <th>Nombre</th>
-                <th>Descripción</th>
-            </tr>
-        </thead>
+    <main>
 
-        <tbody id="tabla-armas">
-            
-        </tbody>
-    </table>
+        <section class="intro-armas">
+            <h2>Tipos de armas</h2>
+
+            <p>
+                En Monster Hunter, cada arma define una forma diferente de combatir.
+                Algunas armas se enfocan en ataques lentos pero poderosos, otras en velocidad,
+                defensa, movilidad o combate a distancia.
+            </p>
+        </section>
+
+        <section class="catalogo-armas">
+            <h2>Catálogo de armas</h2>
+
+            <div class="filtros-armas">
+                <label for="filtro-arma">Buscar arma</label>
+                <input type="text" id="filtro-arma" placeholder="Buscar por nombre o descripción...">
+
+                <label for="filtro-tipo-arma">Tipo de arma</label>
+                <select id="filtro-tipo-arma">
+                    <option value="">Todas las armas</option>
+                    <option value="Gran Espada">Gran Espada</option>
+                    <option value="Espada Larga">Espada Larga</option>
+                    <option value="Espada y Escudo">Espada y Escudo</option>
+                    <option value="Espadas Dobles">Espadas Dobles</option>
+                    <option value="Martillo">Martillo</option>
+                    <option value="Cornamusa">Cornamusa</option>
+                    <option value="Lanza">Lanza</option>
+                    <option value="Lanza Pistola">Lanza Pistola</option>
+                    <option value="Hacha Espada">Hacha Espada</option>
+                    <option value="Hacha Cargada">Hacha Cargada</option>
+                    <option value="Glaive Insecto">Glaive Insecto</option>
+                    <option value="Ballesta Ligera">Ballesta Ligera</option>
+                    <option value="Ballesta Pesada">Ballesta Pesada</option>
+                    <option value="Arco">Arco</option>
+                </select>
+            </div>
+
+            <div class="contenedor-tabla-armas">
+                <table class="tabla">
+                    <thead>
+                        <tr>
+                            <th>Imagen</th>
+                            <th>Nombre</th>
+                            <th>Descripción</th>
+                        </tr>
+                    </thead>
+
+                    <tbody id="tabla-armas">
+                        <!-- Aquí se cargan las armas desde XML usando JavaScript -->
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+    </main>
+
     <nav class="menu-principal">
         <a href="principal.html" class="boton-volver">Volver al inicio</a>
     </nav>
+
     <script src="../scripts/armas.js"></script>
     <script src="../scripts/sonidos.js"></script>
 </body>
