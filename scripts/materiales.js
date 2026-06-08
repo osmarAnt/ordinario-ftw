@@ -10,15 +10,15 @@ const filtroTipo = document.getElementById("filtro-tipo");
 // Imágenes según el tipo de material.
 // Asegúrate de tener estas imágenes en la carpeta indicada.
 const iconosMateriales = {
-    escama: "../imagenes/materiales/escama.png",
-    cola: "../imagenes/materiales/cola.png",
-    glandula: "../imagenes/materiales/glandula.png",
-    piel: "../imagenes/materiales/piel.png",
+    escama: "../imagenes/materiales/escama.webp",
+    cola: "../imagenes/materiales/cola.webp",
+    glandula: "../imagenes/materiales/glandula.webp",
+    piel: "../imagenes/materiales/piel.webp",
     cabeza: "../imagenes/materiales/cabeza.png",
-    hueso: "../imagenes/materiales/hueso.png",
+    hueso: "../imagenes/materiales/hueso.webp",
     placa: "../imagenes/materiales/placa.png",
-    gema: "../imagenes/materiales/gema.png",
-    generico: "../imagenes/materiales/generico.png"
+    gema: "../imagenes/materiales/gema.webp",
+    generico: "../imagenes/materiales/generico.webp"
 };
 
 // Cargamos el XML

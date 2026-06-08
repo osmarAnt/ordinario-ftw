@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <misiones xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/misiones.xsd">
+
     <mision tipo="caza">
         <titulo>Caza un Rathalos</titulo>
         <descripcion>Caza al rey de los cielos antes de que escape de la zona.</descripcion>
@@ -15,29 +16,38 @@
     </mision>
 
     <mision tipo="recoleccion">
-        <titulo>Recolecta hierbas</titulo>
-        <descripcion>Recolecta 10 hierbas medicinales en el bosque antiguo.</descripcion>
+        <titulo>Recolecta hierbas medicinales</titulo>
+        <descripcion>Recolecta 10 hierbas medicinales en el bosque antiguo para preparar suministros.</descripcion>
         <dificultad>★</dificultad>
         <recompensa>800z</recompensa>
-    </mision>
-        <mision tipo="caza">
-        <titulo>Caza un Rathalos</titulo>
-        <descripcion>Caza al rey de los cielos antes de que escape de la zona.</descripcion>
-        <dificultad>★★★★</dificultad>
-        <recompensa>4200z</recompensa>
     </mision>
 
     <mision tipo="caza">
-        <titulo>Caza un Gran Jagras</titulo>
-        <descripcion>Elimina al Gran Jagras que amenaza el campamento.</descripcion>
-        <dificultad>★★</dificultad>
-        <recompensa>1200z</recompensa>
+        <titulo>Detén al Anjanath</titulo>
+        <descripcion>Caza al Anjanath que está invadiendo las rutas cercanas al campamento.</descripcion>
+        <dificultad>★★★</dificultad>
+        <recompensa>2600z</recompensa>
+    </mision>
+
+    <mision tipo="captura">
+        <titulo>Captura un Tobi-Kadachi</titulo>
+        <descripcion>Debilita y captura al Tobi-Kadachi para que el gremio pueda estudiarlo.</descripcion>
+        <dificultad>★★★</dificultad>
+        <recompensa>3000z</recompensa>
     </mision>
 
     <mision tipo="recoleccion">
-        <titulo>Recolecta hierbas</titulo>
-        <descripcion>Recolecta 10 hierbas medicinales en el bosque antiguo.</descripcion>
-        <dificultad>★</dificultad>
-        <recompensa>800z</recompensa>
+        <titulo>Recolecta huesos antiguos</titulo>
+        <descripcion>Busca 5 huesos antiguos en zonas de recolección y vuelve antes del anochecer.</descripcion>
+        <dificultad>★★</dificultad>
+        <recompensa>1500z</recompensa>
     </mision>
+
+    <mision tipo="caza">
+        <titulo>Enfrenta al Diablos</titulo>
+        <descripcion>Caza al Diablos que protege agresivamente su territorio en el desierto.</descripcion>
+        <dificultad>★★★★★</dificultad>
+        <recompensa>5800z</recompensa>
+    </mision>
+
 </misiones>

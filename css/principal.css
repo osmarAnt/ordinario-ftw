@@ -109,3 +109,91 @@ h1 {
     content: "▶";
     color: #fff7a0;
 }
+/* ============================= */
+/* FOOTER */
+/* ============================= */
+
+footer {
+    width: 85%;
+    margin: 30px auto 20px auto;
+    padding: 18px 25px;
+
+    background-color: #2b1608d9;
+    border: 4px double #b8860b;
+    border-radius: 8px;
+
+    color: #f8d878;
+    text-align: center;
+
+    box-sizing: border-box;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.45);
+}
+
+footer p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 #2b1608;
+}
+
+
+/* ============================= */
+/* BLOCKQUOTE / CITA */
+/* ============================= */
+
+blockquote {
+    width: 75%;
+    margin: 25px auto;
+    padding: 20px 30px;
+
+    background-color: #3a1c0a;
+    border-left: 8px solid #b8860b;
+    border-top: 3px solid #b8860b;
+    border-bottom: 3px solid #b8860b;
+    border-right: 3px solid #b8860b;
+    border-radius: 8px;
+
+    color: #f8d878;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    line-height: 1.4;
+
+    box-sizing: border-box;
+    text-shadow: 1px 1px 0 #2b1608;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.45);
+}
+
+blockquote::before {
+    content: "“";
+    font-size: 40px;
+    color: #eec45a;
+    vertical-align: -10px;
+    margin-right: 5px;
+}
+
+blockquote::after {
+    content: "”";
+    font-size: 40px;
+    color: #eec45a;
+    vertical-align: -10px;
+    margin-left: 5px;
+}
+
+
+/* ============================= */
+/* RESPONSIVE */
+/* ============================= */
+
+@media (max-width: 700px) {
+    footer {
+        width: 95%;
+        padding: 15px;
+    }
+
+    blockquote {
+        width: 95%;
+        padding: 18px;
+        font-size: 17px;
+    }
+}

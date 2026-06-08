@@ -80,4 +80,425 @@
         <obtencion>Romper aletas o recompensa de misión</obtencion>
         <uso>Equipo de monstruos acuáticos</uso>
     </material>
+        <!-- ESCAMAS -->
+    <material>
+        <nombre>Escama de Anjanath</nombre>
+        <monstruo>Anjanath</monstruo>
+        <tipo>escama</tipo>
+        <rareza>3</rareza>
+        <obtencion>Tallado del cuerpo o recompensa de caza</obtencion>
+        <uso>Fabricación de armaduras de Anjanath</uso>
+    </material>
+
+    <material>
+        <nombre>Escama de Legiana</nombre>
+        <monstruo>Legiana</monstruo>
+        <tipo>escama</tipo>
+        <rareza>4</rareza>
+        <obtencion>Caza, captura o recompensa de misión</obtencion>
+        <uso>Equipo con resistencia al hielo</uso>
+    </material>
+
+    <material>
+        <nombre>Escama de Tobi-Kadachi</nombre>
+        <monstruo>Tobi-Kadachi</monstruo>
+        <tipo>escama</tipo>
+        <rareza>3</rareza>
+        <obtencion>Tallado del cuerpo o recompensa de investigación</obtencion>
+        <uso>Armaduras ligeras y armas de rayo</uso>
+    </material>
+
+    <material>
+        <nombre>Escama de Pukei-Pukei</nombre>
+        <monstruo>Pukei-Pukei</monstruo>
+        <tipo>escama</tipo>
+        <rareza>2</rareza>
+        <obtencion>Caza o captura del monstruo</obtencion>
+        <uso>Equipo con resistencia al veneno</uso>
+    </material>
+
+    <material>
+        <nombre>Escama de Odogaron</nombre>
+        <monstruo>Odogaron</monstruo>
+        <tipo>escama</tipo>
+        <rareza>5</rareza>
+        <obtencion>Tallado del cuerpo o recompensa de caza</obtencion>
+        <uso>Armaduras ágiles y armas de daño físico</uso>
+    </material>
+
+
+    <!-- COLAS -->
+    <material>
+        <nombre>Cola de Anjanath</nombre>
+        <monstruo>Anjanath</monstruo>
+        <tipo>cola</tipo>
+        <rareza>4</rareza>
+        <obtencion>Cortar la cola y tallarla</obtencion>
+        <uso>Mejora de armas de fuego</uso>
+    </material>
+
+    <material>
+        <nombre>Cola de Legiana</nombre>
+        <monstruo>Legiana</monstruo>
+        <tipo>cola</tipo>
+        <rareza>4</rareza>
+        <obtencion>Cortar la cola durante la cacería</obtencion>
+        <uso>Fabricación de armas de hielo</uso>
+    </material>
+
+    <material>
+        <nombre>Cola de Rathian</nombre>
+        <monstruo>Rathian</monstruo>
+        <tipo>cola</tipo>
+        <rareza>4</rareza>
+        <obtencion>Cortar la cola y tallarla</obtencion>
+        <uso>Armas venenosas y armaduras de Rathian</uso>
+    </material>
+
+    <material>
+        <nombre>Cola de Odogaron</nombre>
+        <monstruo>Odogaron</monstruo>
+        <tipo>cola</tipo>
+        <rareza>5</rareza>
+        <obtencion>Cortar la cola o recompensa de misión</obtencion>
+        <uso>Mejora de armas rápidas</uso>
+    </material>
+
+    <material>
+        <nombre>Cola de Diablos</nombre>
+        <monstruo>Diablos</monstruo>
+        <tipo>cola</tipo>
+        <rareza>5</rareza>
+        <obtencion>Cortar la cola de Diablos</obtencion>
+        <uso>Armas pesadas y equipo defensivo</uso>
+    </material>
+
+
+    <!-- GLÁNDULAS -->
+    <material>
+        <nombre>Glándula venenosa</nombre>
+        <monstruo>Pukei-Pukei</monstruo>
+        <tipo>glandula</tipo>
+        <rareza>3</rareza>
+        <obtencion>Recompensa de caza o romper partes venenosas</obtencion>
+        <uso>Armas con veneno</uso>
+    </material>
+
+    <material>
+        <nombre>Glándula eléctrica</nombre>
+        <monstruo>Tobi-Kadachi</monstruo>
+        <tipo>glandula</tipo>
+        <rareza>4</rareza>
+        <obtencion>Romper partes cargadas de electricidad</obtencion>
+        <uso>Armas con elemento rayo</uso>
+    </material>
+
+    <material>
+        <nombre>Glándula de hielo</nombre>
+        <monstruo>Legiana</monstruo>
+        <tipo>glandula</tipo>
+        <rareza>4</rareza>
+        <obtencion>Recompensa de caza o captura</obtencion>
+        <uso>Armas con elemento hielo</uso>
+    </material>
+
+    <material>
+        <nombre>Glándula de agua</nombre>
+        <monstruo>Jyuratodus</monstruo>
+        <tipo>glandula</tipo>
+        <rareza>3</rareza>
+        <obtencion>Romper partes o recompensa de misión</obtencion>
+        <uso>Armas con elemento agua</uso>
+    </material>
+
+    <material>
+        <nombre>Glándula explosiva</nombre>
+        <monstruo>Dodogama</monstruo>
+        <tipo>glandula</tipo>
+        <rareza>5</rareza>
+        <obtencion>Romper mandíbula o recompensa de caza</obtencion>
+        <uso>Armas con daño explosivo</uso>
+    </material>
+
+
+    <!-- PIELES -->
+    <material>
+        <nombre>Piel de Jagras</nombre>
+        <monstruo>Gran Jagras</monstruo>
+        <tipo>piel</tipo>
+        <rareza>2</rareza>
+        <obtencion>Caza o tallado del cuerpo</obtencion>
+        <uso>Armaduras básicas de cazador</uso>
+    </material>
+
+    <material>
+        <nombre>Piel de Barroth</nombre>
+        <monstruo>Barroth</monstruo>
+        <tipo>piel</tipo>
+        <rareza>3</rareza>
+        <obtencion>Caza, captura o recompensa de misión</obtencion>
+        <uso>Armaduras resistentes y equipo defensivo</uso>
+    </material>
+
+    <material>
+        <nombre>Piel de Rathian</nombre>
+        <monstruo>Rathian</monstruo>
+        <tipo>piel</tipo>
+        <rareza>4</rareza>
+        <obtencion>Tallado del cuerpo o recompensa</obtencion>
+        <uso>Equipo con resistencia al fuego y veneno</uso>
+    </material>
+
+    <material>
+        <nombre>Piel de Paolumu</nombre>
+        <monstruo>Paolumu</monstruo>
+        <tipo>piel</tipo>
+        <rareza>3</rareza>
+        <obtencion>Caza o captura</obtencion>
+        <uso>Armaduras ligeras y equipo de apoyo</uso>
+    </material>
+
+    <material>
+        <nombre>Piel de Odogaron</nombre>
+        <monstruo>Odogaron</monstruo>
+        <tipo>piel</tipo>
+        <rareza>5</rareza>
+        <obtencion>Tallado o recompensa de investigación</obtencion>
+        <uso>Armaduras de alta movilidad</uso>
+    </material>
+
+
+    <!-- CABEZAS -->
+    <material>
+        <nombre>Cráneo de Anjanath</nombre>
+        <monstruo>Anjanath</monstruo>
+        <tipo>cabeza</tipo>
+        <rareza>5</rareza>
+        <obtencion>Romper la cabeza de Anjanath</obtencion>
+        <uso>Cascos y armas pesadas de fuego</uso>
+    </material>
+
+    <material>
+        <nombre>Cuerno de Diablos</nombre>
+        <monstruo>Diablos</monstruo>
+        <tipo>cabeza</tipo>
+        <rareza>5</rareza>
+        <obtencion>Romper los cuernos de Diablos</obtencion>
+        <uso>Armas de gran daño físico</uso>
+    </material>
+
+    <material>
+        <nombre>Pico de Kulu-Ya-Ku</nombre>
+        <monstruo>Kulu-Ya-Ku</monstruo>
+        <tipo>cabeza</tipo>
+        <rareza>2</rareza>
+        <obtencion>Romper la cabeza o recompensa de misión</obtencion>
+        <uso>Equipo ligero y armas iniciales</uso>
+    </material>
+
+    <material>
+        <nombre>Mandíbula de Dodogama</nombre>
+        <monstruo>Dodogama</monstruo>
+        <tipo>cabeza</tipo>
+        <rareza>4</rareza>
+        <obtencion>Romper la mandíbula del monstruo</obtencion>
+        <uso>Armas explosivas y cascos reforzados</uso>
+    </material>
+
+    <material>
+        <nombre>Cuerno de Kirin</nombre>
+        <monstruo>Kirin</monstruo>
+        <tipo>cabeza</tipo>
+        <rareza>6</rareza>
+        <obtencion>Romper el cuerno o recompensa rara</obtencion>
+        <uso>Equipo con resistencia al rayo</uso>
+    </material>
+
+
+    <!-- HUESOS -->
+    <material>
+        <nombre>Hueso de monstruo pequeño</nombre>
+        <monstruo>Varios</monstruo>
+        <tipo>hueso</tipo>
+        <rareza>1</rareza>
+        <obtencion>Recolección o monstruos pequeños</obtencion>
+        <uso>Fabricación básica de armas</uso>
+    </material>
+
+    <material>
+        <nombre>Hueso de monstruo mediano</nombre>
+        <monstruo>Varios</monstruo>
+        <tipo>hueso</tipo>
+        <rareza>2</rareza>
+        <obtencion>Recompensa de misiones de rango bajo</obtencion>
+        <uso>Mejora de armas iniciales</uso>
+    </material>
+
+    <material>
+        <nombre>Hueso de monstruo grande</nombre>
+        <monstruo>Varios</monstruo>
+        <tipo>hueso</tipo>
+        <rareza>3</rareza>
+        <obtencion>Recompensa de cacerías contra monstruos grandes</obtencion>
+        <uso>Armaduras y armas intermedias</uso>
+    </material>
+
+    <material>
+        <nombre>Hueso robusto</nombre>
+        <monstruo>Varios</monstruo>
+        <tipo>hueso</tipo>
+        <rareza>4</rareza>
+        <obtencion>Recompensas de misiones avanzadas</obtencion>
+        <uso>Mejoras de armas pesadas</uso>
+    </material>
+
+    <material>
+        <nombre>Hueso antiguo</nombre>
+        <monstruo>Varios</monstruo>
+        <tipo>hueso</tipo>
+        <rareza>5</rareza>
+        <obtencion>Recolección en zonas antiguas o recompensas raras</obtencion>
+        <uso>Equipo especial y mejoras avanzadas</uso>
+    </material>
+
+
+    <!-- GENÉRICOS -->
+    <material>
+        <nombre>Aleta de Beotodus</nombre>
+        <monstruo>Beotodus</monstruo>
+        <tipo>generico</tipo>
+        <rareza>4</rareza>
+        <obtencion>Romper aletas o recompensa de caza</obtencion>
+        <uso>Equipo de monstruos acuáticos o de hielo</uso>
+    </material>
+
+    <material>
+        <nombre>Garra de Odogaron</nombre>
+        <monstruo>Odogaron</monstruo>
+        <tipo>generico</tipo>
+        <rareza>5</rareza>
+        <obtencion>Romper garras o tallado del cuerpo</obtencion>
+        <uso>Armas rápidas y afiladas</uso>
+    </material>
+
+    <material>
+        <nombre>Caparazón de Barroth</nombre>
+        <monstruo>Barroth</monstruo>
+        <tipo>generico</tipo>
+        <rareza>3</rareza>
+        <obtencion>Romper partes endurecidas</obtencion>
+        <uso>Armaduras defensivas</uso>
+    </material>
+
+    <material>
+        <nombre>Pluma de Kulu-Ya-Ku</nombre>
+        <monstruo>Kulu-Ya-Ku</monstruo>
+        <tipo>generico</tipo>
+        <rareza>2</rareza>
+        <obtencion>Caza o recompensa de misión</obtencion>
+        <uso>Equipo ligero y decorativo</uso>
+    </material>
+
+    <material>
+        <nombre>Membrana de Paolumu</nombre>
+        <monstruo>Paolumu</monstruo>
+        <tipo>generico</tipo>
+        <rareza>3</rareza>
+        <obtencion>Romper el saco inflable o recompensa</obtencion>
+        <uso>Equipo de movilidad y apoyo</uso>
+    </material>
+
+
+    <!-- PLACAS -->
+    <material>
+        <nombre>Placa de Rathian</nombre>
+        <monstruo>Rathian</monstruo>
+        <tipo>placa</tipo>
+        <rareza>5</rareza>
+        <obtencion>Recompensa rara de caza, captura o tallado</obtencion>
+        <uso>Equipo raro de Rathian</uso>
+    </material>
+
+    <material>
+        <nombre>Placa de Anjanath</nombre>
+        <monstruo>Anjanath</monstruo>
+        <tipo>placa</tipo>
+        <rareza>5</rareza>
+        <obtencion>Recompensa rara o romper partes específicas</obtencion>
+        <uso>Armas y armaduras avanzadas de fuego</uso>
+    </material>
+
+    <material>
+        <nombre>Placa de Legiana</nombre>
+        <monstruo>Legiana</monstruo>
+        <tipo>placa</tipo>
+        <rareza>5</rareza>
+        <obtencion>Recompensa rara de captura o caza</obtencion>
+        <uso>Equipo raro de hielo</uso>
+    </material>
+
+    <material>
+        <nombre>Placa de Odogaron</nombre>
+        <monstruo>Odogaron</monstruo>
+        <tipo>placa</tipo>
+        <rareza>6</rareza>
+        <obtencion>Recompensa rara o tallado del cuerpo</obtencion>
+        <uso>Armaduras de alta movilidad</uso>
+    </material>
+
+    <material>
+        <nombre>Placa de Diablos</nombre>
+        <monstruo>Diablos</monstruo>
+        <tipo>placa</tipo>
+        <rareza>6</rareza>
+        <obtencion>Recompensa rara de caza o captura</obtencion>
+        <uso>Armas pesadas y armaduras resistentes</uso>
+    </material>
+
+
+    <!-- GEMAS -->
+    <material>
+        <nombre>Gema de Rathian</nombre>
+        <monstruo>Rathian</monstruo>
+        <tipo>gema</tipo>
+        <rareza>7</rareza>
+        <obtencion>Recompensa muy rara de caza o captura</obtencion>
+        <uso>Mejoras finales de equipo de Rathian</uso>
+    </material>
+
+    <material>
+        <nombre>Gema de Anjanath</nombre>
+        <monstruo>Anjanath</monstruo>
+        <tipo>gema</tipo>
+        <rareza>7</rareza>
+        <obtencion>Recompensa muy rara de investigación</obtencion>
+        <uso>Mejoras avanzadas de armas de fuego</uso>
+    </material>
+
+    <material>
+        <nombre>Gema de Legiana</nombre>
+        <monstruo>Legiana</monstruo>
+        <tipo>gema</tipo>
+        <rareza>7</rareza>
+        <obtencion>Recompensa muy rara de caza o captura</obtencion>
+        <uso>Mejoras finales de equipo de hielo</uso>
+    </material>
+
+    <material>
+        <nombre>Gema de Odogaron</nombre>
+        <monstruo>Odogaron</monstruo>
+        <tipo>gema</tipo>
+        <rareza>7</rareza>
+        <obtencion>Recompensa muy rara o tallado especial</obtencion>
+        <uso>Equipo avanzado de ataque y movilidad</uso>
+    </material>
+
+    <material>
+        <nombre>Gema de Diablos</nombre>
+        <monstruo>Diablos</monstruo>
+        <tipo>gema</tipo>
+        <rareza>7</rareza>
+        <obtencion>Recompensa muy rara de caza o captura</obtencion>
+        <uso>Mejoras finales de armas pesadas</uso>
+    </material>
 </materiales>

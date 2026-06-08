@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <armaduras xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/armaduras.xsd">
+
+    <!-- SET RATHALOS -->
     <pieza>
         <nombre>Casco Rathalos</nombre>
         <tipo>Casco</tipo>
@@ -59,4 +61,315 @@
         <dragon>-3</dragon>
         <habilidad>Salto</habilidad>
     </pieza>
+
+
+    <!-- SET ANJANATH -->
+    <pieza>
+        <nombre>Casco Anjanath</nombre>
+        <tipo>Casco</tipo>
+        <defensa>30</defensa>
+        <fuego>3</fuego>
+        <agua>-3</agua>
+        <rayo>-1</rayo>
+        <hielo>-1</hielo>
+        <dragon>0</dragon>
+        <habilidad>Adrenalina</habilidad>
+    </pieza>
+
+    <pieza>
+        <nombre>Pechera Anjanath</nombre>
+        <tipo>Pechera</tipo>
+        <defensa>33</defensa>
+        <fuego>3</fuego>
+        <agua>-3</agua>
+        <rayo>-1</rayo>
+        <hielo>-1</hielo>
+        <dragon>0</dragon>
+        <habilidad>Ataque</habilidad>
+    </pieza>
+
+    <pieza>
+        <nombre>Guantes Anjanath</nombre>
+        <tipo>Guantes</tipo>
+        <defensa>31</defensa>
+        <fuego>3</fuego>
+        <agua>-3</agua>
+        <rayo>-1</rayo>
+        <hielo>-1</hielo>
+        <dragon>0</dragon>
+        <habilidad>Artillería</habilidad>
+    </pieza>
+
+    <pieza>
+        <nombre>Cintura Anjanath</nombre>
+        <tipo>Cintura</tipo>
+        <defensa>32</defensa>
+        <fuego>3</fuego>
+        <agua>-3</agua>
+        <rayo>-1</rayo>
+        <hielo>-1</hielo>
+        <dragon>0</dragon>
+        <habilidad>Corredor</habilidad>
+    </pieza>
+
+    <pieza>
+        <nombre>Botas Anjanath</nombre>
+        <tipo>Botas</tipo>
+        <defensa>30</defensa>
+        <fuego>3</fuego>
+        <agua>-3</agua>
+        <rayo>-1</rayo>
+        <hielo>-1</hielo>
+        <dragon>0</dragon>
+        <habilidad>Resistencia al fuego</habilidad>
+    </pieza>
+
+
+    <!-- SET LEGIANA -->
+    <pieza>
+        <nombre>Casco Legiana</nombre>
+        <tipo>Casco</tipo>
+        <defensa>34</defensa>
+        <fuego>-1</fuego>
+        <agua>2</agua>
+        <rayo>-3</rayo>
+        <hielo>3</hielo>
+        <dragon>0</dragon>
+        <habilidad>Bendición divina</habilidad>
+    </pieza>
+
+    <pieza>
+        <nombre>Pechera Legiana</nombre>
+        <tipo>Pechera</tipo>
+        <defensa>35</defensa>
+        <fuego>-1</fuego>
+        <agua>2</agua>
+        <rayo>-3</rayo>
+        <hielo>3</hielo>
+        <dragon>0</dragon>
+        <habilidad>Evasión</habilidad>
+    </pieza>
+
+    <pieza>
+        <nombre>Guantes Legiana</nombre>
+        <tipo>Guantes</tipo>
+        <defensa>33</defensa>
+        <fuego>-1</fuego>
+        <agua>2</agua>
+        <rayo>-3</rayo>
+        <hielo>3</hielo>
+        <dragon>0</dragon>
+        <habilidad>Constitución</habilidad>
+    </pieza>
+
+    <pieza>
+        <nombre>Cintura Legiana</nombre>
+        <tipo>Cintura</tipo>
+        <defensa>32</defensa>
+        <fuego>-1</fuego>
+        <agua>2</agua>
+        <rayo>-3</rayo>
+        <hielo>3</hielo>
+        <dragon>0</dragon>
+        <habilidad>Resistencia al hielo</habilidad>
+    </pieza>
+
+    <pieza>
+        <nombre>Botas Legiana</nombre>
+        <tipo>Botas</tipo>
+        <defensa>33</defensa>
+        <fuego>-1</fuego>
+        <agua>2</agua>
+        <rayo>-3</rayo>
+        <hielo>3</hielo>
+        <dragon>0</dragon>
+        <habilidad>Salto</habilidad>
+    </pieza>
+
+
+    <!-- SET BARROTH -->
+    <pieza>
+        <nombre>Casco Barroth</nombre>
+        <tipo>Casco</tipo>
+        <defensa>28</defensa>
+        <fuego>-3</fuego>
+        <agua>-1</agua>
+        <rayo>3</rayo>
+        <hielo>-1</hielo>
+        <dragon>0</dragon>
+        <habilidad>Guardia</habilidad>
+    </pieza>
+
+    <pieza>
+        <nombre>Pechera Barroth</nombre>
+        <tipo>Pechera</tipo>
+        <defensa>31</defensa>
+        <fuego>-3</fuego>
+        <agua>-1</agua>
+        <rayo>3</rayo>
+        <hielo>-1</hielo>
+        <dragon>0</dragon>
+        <habilidad>Defensa</habilidad>
+    </pieza>
+
+    <pieza>
+        <nombre>Guantes Barroth</nombre>
+        <tipo>Guantes</tipo>
+        <defensa>29</defensa>
+        <fuego>-3</fuego>
+        <agua>-1</agua>
+        <rayo>3</rayo>
+        <hielo>-1</hielo>
+        <dragon>0</dragon>
+        <habilidad>Guardia</habilidad>
+    </pieza>
+
+    <pieza>
+        <nombre>Cintura Barroth</nombre>
+        <tipo>Cintura</tipo>
+        <defensa>30</defensa>
+        <fuego>-3</fuego>
+        <agua>-1</agua>
+        <rayo>3</rayo>
+        <hielo>-1</hielo>
+        <dragon>0</dragon>
+        <habilidad>Resistencia al rayo</habilidad>
+    </pieza>
+
+    <pieza>
+        <nombre>Botas Barroth</nombre>
+        <tipo>Botas</tipo>
+        <defensa>28</defensa>
+        <fuego>-3</fuego>
+        <agua>-1</agua>
+        <rayo>3</rayo>
+        <hielo>-1</hielo>
+        <dragon>0</dragon>
+        <habilidad>Defensa</habilidad>
+    </pieza>
+
+
+    <!-- SET TOBI-KADACHI -->
+    <pieza>
+        <nombre>Casco Tobi-Kadachi</nombre>
+        <tipo>Casco</tipo>
+        <defensa>27</defensa>
+        <fuego>0</fuego>
+        <agua>-3</agua>
+        <rayo>3</rayo>
+        <hielo>0</hielo>
+        <dragon>0</dragon>
+        <habilidad>Constitución</habilidad>
+    </pieza>
+
+    <pieza>
+        <nombre>Pechera Tobi-Kadachi</nombre>
+        <tipo>Pechera</tipo>
+        <defensa>29</defensa>
+        <fuego>0</fuego>
+        <agua>-3</agua>
+        <rayo>3</rayo>
+        <hielo>0</hielo>
+        <dragon>0</dragon>
+        <habilidad>Resistencia al rayo</habilidad>
+    </pieza>
+
+    <pieza>
+        <nombre>Guantes Tobi-Kadachi</nombre>
+        <tipo>Guantes</tipo>
+        <defensa>27</defensa>
+        <fuego>0</fuego>
+        <agua>-3</agua>
+        <rayo>3</rayo>
+        <hielo>0</hielo>
+        <dragon>0</dragon>
+        <habilidad>Evasión</habilidad>
+    </pieza>
+
+    <pieza>
+        <nombre>Cintura Tobi-Kadachi</nombre>
+        <tipo>Cintura</tipo>
+        <defensa>28</defensa>
+        <fuego>0</fuego>
+        <agua>-3</agua>
+        <rayo>3</rayo>
+        <hielo>0</hielo>
+        <dragon>0</dragon>
+        <habilidad>Salto</habilidad>
+    </pieza>
+
+    <pieza>
+        <nombre>Botas Tobi-Kadachi</nombre>
+        <tipo>Botas</tipo>
+        <defensa>27</defensa>
+        <fuego>0</fuego>
+        <agua>-3</agua>
+        <rayo>3</rayo>
+        <hielo>0</hielo>
+        <dragon>0</dragon>
+        <habilidad>Afinidad</habilidad>
+    </pieza>
+
+
+    <!-- SET JAGRAS -->
+    <pieza>
+        <nombre>Casco Jagras</nombre>
+        <tipo>Casco</tipo>
+        <defensa>20</defensa>
+        <fuego>-2</fuego>
+        <agua>2</agua>
+        <rayo>-1</rayo>
+        <hielo>-1</hielo>
+        <dragon>1</dragon>
+        <habilidad>Salud</habilidad>
+    </pieza>
+
+    <pieza>
+        <nombre>Pechera Jagras</nombre>
+        <tipo>Pechera</tipo>
+        <defensa>22</defensa>
+        <fuego>-2</fuego>
+        <agua>2</agua>
+        <rayo>-1</rayo>
+        <hielo>-1</hielo>
+        <dragon>1</dragon>
+        <habilidad>Recuperación</habilidad>
+    </pieza>
+
+    <pieza>
+        <nombre>Guantes Jagras</nombre>
+        <tipo>Guantes</tipo>
+        <defensa>21</defensa>
+        <fuego>-2</fuego>
+        <agua>2</agua>
+        <rayo>-1</rayo>
+        <hielo>-1</hielo>
+        <dragon>1</dragon>
+        <habilidad>Recolector</habilidad>
+    </pieza>
+
+    <pieza>
+        <nombre>Cintura Jagras</nombre>
+        <tipo>Cintura</tipo>
+        <defensa>21</defensa>
+        <fuego>-2</fuego>
+        <agua>2</agua>
+        <rayo>-1</rayo>
+        <hielo>-1</hielo>
+        <dragon>1</dragon>
+        <habilidad>Salud</habilidad>
+    </pieza>
+
+    <pieza>
+        <nombre>Botas Jagras</nombre>
+        <tipo>Botas</tipo>
+        <defensa>20</defensa>
+        <fuego>-2</fuego>
+        <agua>2</agua>
+        <rayo>-1</rayo>
+        <hielo>-1</hielo>
+        <dragon>1</dragon>
+        <habilidad>Velocidad al comer</habilidad>
+    </pieza>
+
 </armaduras>
